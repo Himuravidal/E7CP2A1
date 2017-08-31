@@ -7,7 +7,7 @@ puts a
 puts '#######################################'
 
 # 2. Utilizando .map crear una arreglo con los nombres en minúscula.
-a = nombres.map { |nom| nom.downcase}
+a = nombres.map(&:downcase)
 puts a
 puts '#######################################'
 
